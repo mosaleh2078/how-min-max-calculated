@@ -3,7 +3,9 @@ As you know, max and min are functions commonly used in many programs. How do th
 <p align="center">
 $$max(a, b) = \frac{(a+b) + |a-b|}{2}$$
 </p>
-$min(a, b) = \frac{(a+b) - |a-b|}{2}$</br>
+<p align="center">
+$$min(a, b) = \frac{(a+b) - |a-b|}{2}$$
+</p>
 You may think of these functions as a proper solution. In terms of computer architecture, these functions require many clock cycles to compute the desired result. Hence, computers compute min and max differently. If we have a = 5 and b = 2, and an 8-bit 2's complement system:</br> 
 <p align="center">
   a = (5)<sub>10</sub> = (00000101)<sub>2</sub>
