@@ -15,4 +15,4 @@ You may think of these functions as a proper solution. In terms of computer arch
 </p>
 The CPU starts from the most left-hand bit (the most significant bit or MSB) and compares them. The corresponding FSA diagram is shown below:
 <img src="./figures/FSA.jpg" alt="FSA diagram">
-The verilog implementation of this idea is in <a href="./https://github.com/mosaleh2078/how-min-max-calculated/blob/main/2's%20Complement%20Comparator.sv">this file</a>
+The verilog implementation of this idea is in <a href="https://github.com/mosaleh2078/how-min-max-calculated/blob/main/2's%20Complement%20Comparator.sv">this file</a>
