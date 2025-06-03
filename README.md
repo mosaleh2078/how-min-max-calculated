@@ -15,5 +15,5 @@ You may think of these functions as a proper solution. In terms of computer arch
 </p>
 The CPU starts from the most left-hand bit (the most significant bit or MSB) and compares them. The corresponding FSA diagram is shown below:
 <center>
-  <img src="./figures/FSA.jpg" alt="FSA diagram" width="1000" height="800">
+  <img src="./figures/FSA.jpg" alt="FSA diagram" width="800" height="400">
 </center>
