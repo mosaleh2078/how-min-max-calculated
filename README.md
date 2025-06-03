@@ -14,4 +14,6 @@ You may think of these functions as a proper solution. In terms of computer arch
   a = (2)<sub>10</sub> = (00000010)<sub>2</sub>
 </p>
 The CPU starts from the most left-hand bit (the most significant bit or MSB) and compares them. The corresponding FSA diagram is shown below:
-<img align="center" src="./figures/FSA.jpg" alt="FSA diagram" width="300" height="200">
+<center>
+  <img src="./figures/FSA.jpg" alt="FSA diagram" width="1000" height="800">
+</center>
