@@ -16,4 +16,4 @@ You may think of these functions as a proper solution. In terms of computer arch
 The CPU starts from the most left-hand bit (the most significant bit or MSB) and compares them. The corresponding FSA diagram is shown below:
 <img src="./figures/FSA.jpg" alt="FSA diagram">
 The verilog implementation of this idea is in <a href="./2s_Complement_Comparator.sv">this file</a>
-This implementation may be as inefficient as the first solution. You may be right! After all, it all depends on the design of the CPU. On the other hand, the order of both solutions is $$O(1)$$
+This implementation may be as inefficient as the first solution. You may be right! After all, it all depends on the design of the CPU. On the other hand, both solutions have a time complexity of O(1), but the likelihood of a bit being zero or one is 50% (at a superficial glance). Therefore, the second method is more likely to produce a faster result.
